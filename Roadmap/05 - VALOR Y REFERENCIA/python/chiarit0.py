@@ -66,10 +66,29 @@ print(f"variables originales: {a},{b}")
 print(f"variables nuevas: {x},{y}")
 
 
-#REFERENCIAS
-def programa2 (a:list,b:list):
-    t=[100,200,300]
-    j=[500,600,700]
+# REFERENCIAS
+def programa2 (lista_t:list,lista_j:list):
+    vartemp=lista_t
+    lista_t=lista_j
+    lista_j=vartemp
+    return lista_t,lista_j
+
+
+lista_t=[100,200,300]
+lista_j=[400,500,600]
+
+lista_f,lista_g=programa2(lista_t,lista_j)
+
+print(lista_t,lista_j)
+print(lista_f,lista_g)
+
+
+
+
+
+
+
+
 
 
 
