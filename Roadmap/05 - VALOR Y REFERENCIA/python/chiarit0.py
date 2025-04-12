@@ -88,9 +88,3 @@ print(lista_f,lista_g)
 
 
 
-
-
-
-
-
-

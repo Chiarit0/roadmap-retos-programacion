@@ -42,5 +42,3 @@ def sucesion(factor):
     
 print(sucesion(8))
 
-
-   
